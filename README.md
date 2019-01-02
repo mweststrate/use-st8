@@ -101,7 +101,7 @@ function Counter({initialCount}) {
   const count = useSt8(initialCount);
   return (
     <>
-      Count: {count}
+      Count: {count()}
       <button onClick={() => count(0)}>Reset</button>
       <button onClick={() => count(prevCount => prevCount + 1)}>+</button>
       <button onClick={() => count(prevCount => prevCount - 1)}>-</button>
@@ -110,7 +110,7 @@ function Counter({initialCount}) {
 }
 ```
 
-_[sarcasm]Which saves a whooping 23 characters. Now go forth and refactoring all the things![/sarcasm]_
+_[sarcasm]Which saves a whooping 21 characters. Now go forth and refactoring all the things![/sarcasm]_
 
 # The name
 
