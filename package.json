@@ -1,11 +1,19 @@
 {
   "name": "use-st8",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Single-function alternative for React.useState hook",
+  "source": "src/index.ts",
   "main": "lib/index.js",
+  "umd:main": "lib/index.umd.js",
+  "module": "lib/index.mjs",
+  "typings": "lib/index.d.ts",
   "scripts": {
+    "build": "microbundle",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "lib/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mweststrate/use-st8.git"
@@ -20,5 +28,14 @@
   "bugs": {
     "url": "https://github.com/mweststrate/use-st8/issues"
   },
-  "homepage": "https://github.com/mweststrate/use-st8#readme"
+  "homepage": "https://github.com/mweststrate/use-st8#readme",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.18",
+    "microbundle": "^0.9.0",
+    "react": "^16.7.0-alpha.2",
+    "typescript": "^3.2.2"
+  }
 }
