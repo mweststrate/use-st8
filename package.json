@@ -1,0 +1,24 @@
+{
+  "name": "use-st8",
+  "version": "1.0.0",
+  "description": "Single-function alternative for React.useState hook",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mweststrate/use-st8.git"
+  },
+  "keywords": [
+    "React",
+    "hooks",
+    "useState"
+  ],
+  "author": "Michel Weststrate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mweststrate/use-st8/issues"
+  },
+  "homepage": "https://github.com/mweststrate/use-st8#readme"
+}
