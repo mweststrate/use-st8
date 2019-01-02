@@ -14,3 +14,5 @@ export function useSt8<T>(initial: (() => T) | T): {
 } {
     return st8.bind(useState(initial))
 }
+
+export default useSt8
