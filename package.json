@@ -1,6 +1,6 @@
 {
   "name": "use-st8",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Single-function alternative for React.useState hook",
   "source": "src/index.ts",
   "main": "lib/index.js",
