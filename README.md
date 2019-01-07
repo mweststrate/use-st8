@@ -18,7 +18,7 @@ _Warning: Hooks are currently a React [RFC](https://github.com/reactjs/rfcs/pull
 ```javascript
 import * as React from "react";
 import { render } from "react-dom";
-import { useSt8 } from "use-st8";
+import { useSt8 } from "use-st8"; // (or) import useSt8 from 'use-st8';
 
 function App() {
   const count = useSt8(0);
@@ -115,6 +115,13 @@ _[sarcasm]Which saves a whooping 21 characters. Now go forth and refactoring all
 # The name
 
 _useSt8_ is a shorter form of _useState_, which has _8_ characters. Also, the pronounciation is pretty similar to "useState".
+
+If you prefer to use with a different name, the `useSt8` named export is set as the default export as well.
+
+```javascript
+import useSt8 from 'use-st8';
+import useCustomNameSt8 from 'use-st8';
+```
 
 # Cool?
 
