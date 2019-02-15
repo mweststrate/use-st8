@@ -2,12 +2,9 @@
 
 Single-function alternative for React.useState
 
-
 [![npm](https://img.shields.io/npm/v/use-st8.svg)](https://www.npmjs.com/package/use-st8) [![size](http://img.badgesize.io/https://unpkg.com/use-st8@0.0.1/lib/index.mjs?compression=gzip)](http://img.badgesize.io/https://unpkg.com/use-st8@0.0.1/lib/index.mjs) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/michelweststrate)
 
 # Installation
-
-_Warning: Hooks are currently a React [RFC](https://github.com/reactjs/rfcs/pull/68) and **not ready for production**. Use at minimum `react@16.7.0-alpha.0` to use this package._
 
 `npm add use-st8`
 
