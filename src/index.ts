@@ -8,10 +8,12 @@ function st8() {
     }
 }
 
-export function useSt8<T>(initial: (() => T) | T): {
+export type St8<T> = {
     (): T
     (newValue: T | ((current: T) => T)): void
-} {
+}
+
+export function useSt8<T>(initial: (() => T) | T): St8<T> {
     return st8.bind(useState(initial))
 }
 
