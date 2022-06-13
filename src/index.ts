@@ -20,3 +20,5 @@ export function useSt8<V>(initialValue: (() => V) | V): St8<V> {
     } as St8<V>;
   }, [state]);
 }
+
+export default useSt8
